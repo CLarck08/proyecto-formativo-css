@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Boldonse", system-ui;
+    font-size: 17px;
+    font-style: normal;
+    
+}
+header{
+    background-color:#752453;
+    padding: 10px;
+}
+nav{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    margin-inline: 20px;
+    color:rgb(255, 255, 255);
+    margin: 0 100px;
+}
+nav a:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+header H1{
+    display: flex;
+    width: 400px;
+    border-radius: 50px;
+    margin: auto;
+    color: white;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 20px 60px;
+}
+.card img{
+    width: 300px;
+}
+.card p{
+    color: #ffaec1;
+}
+.card_horizontal{
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 500px;
+    border-radius: 20px;
+    justify-self: center;
+    margin: 20px;
+    padding: 20px;
+}
+.Main{
+    display: flex;
+    justify-self: center;
+}
+main h1{
+    display: flex;
+    justify-self: center;
+}
+.Main_card{
+    display: flex;
+    justify-content: center;
+    background-color:#ffaec1;
+    width: 800px;
+    height: 320px;
+    border-radius: 20px;
+    justify-self: start;
+    margin: 20px;
+    padding: 20px;
+}
+.Main_card:hover{
+    transform: scale(1.05);
+    transition: 1.1s;
+}
+.Main_card img{
+    border-radius: 20px;
+}
+strong{
+    color: #ffb2da;
+    
+}
+.Main_text{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 320px;
+    border-radius: 20px;
+    justify-self: end;
+    margin: 20px;
+    padding: 20px;
+}
+.card_horizontal img{
+    width: 800px;
+    height: 300px;
+    border-radius: 20px 20px 0 0 ;
+    margin: 20px;
+    background-color: #752453;
+    margin: 0%;
+}
+.img_title:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.title{
+    background-color: #4A2545;
+    width: auto;
+    margin: 0;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.history{
+    display: grid;
+    height: auto;
+    text-align: justify;
+}
+.card_horizontal p{
+    font-size: larger;
+}
+.history h2{
+    color: white;
+}
+.history:hover{
+    transform: none;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.Producto_top h1{
+    display: flex;
+    justify-self: center;
+    font-size: 50px;
+}
+.Producto_top h2{
+    color: rgb(0, 0, 0);
+}
+h3{
+    margin: 0;
+}
+button{
+    background-color: #ffb2da;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+footer{
+    background-color:#4A2545;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+footer p{
+    margin: auto;
+    color: #fff;
+}
